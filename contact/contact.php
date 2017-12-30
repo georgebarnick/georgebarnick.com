@@ -14,7 +14,7 @@ if ($field_email != null && $field_message != null) {
 }
 if ($mail_status && $field_email != null && $field_message != null) { ?>
     <script language="javascript" type="text/javascript">
-		window.location = '/contact/?result=success#Contact';
+		window.location = '/contact/?result=success';
     </script>
 <?php
 } else { ?>
