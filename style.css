@@ -201,7 +201,8 @@ input[type="submit"] {
 	}
 	
 	img#avatar,
-	#pageWrapper #page p {
+	#pageWrapper #page p,
+	form {
 		width: 100%;
 	}
 }
