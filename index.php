@@ -79,7 +79,15 @@
 					I am the managing director at <a href="//www.rappahannockit.com" target="_blank">Rappahannock IT</a>, a leading IT service provider in the Fredericksburg, Virginia region. I helped establish the company in 2017 as a joint venture with my friend and colleague Cody Harrell.
 				</p>
 				<p>
-					I have 8+ years of experience in tech fields, ranging from full-stack web development, software engineering, IT consulting, and security. I began my career as a web designer, contributing to open-source projects such as <a href="//www.mediawiki.org/wiki/MediaWiki" target="_blank">MediaWiki</a> and <a href="//wikimediafoundation.org/wiki/Home" target="_blank">Wikimedia Foundation</a> with a focus on user experience design and social features. I grew from there into full-stack development and operated several Linux-based web servers hosting free online communities serving over 65,000 users.
+					I have <?php
+						function dateDifference( $date_1, $date_2, $differenceFormat = '%y' ) {
+						        $datetime1 = date_create( $date_1 );
+						        $datetime2 = date_create( $date_2 );
+						        $interval = date_diff( $datetime1, $datetime2 );
+						        return $interval->format( $differenceFormat );
+						}
+						echo dateDifference( '28 November 2009', date( 'r' ) );
+					?>+ years of experience in tech fields, ranging from full-stack web development, software engineering, IT consulting, and security. I began my career as a web designer, contributing to open-source projects such as <a href="//www.mediawiki.org/wiki/MediaWiki" target="_blank">MediaWiki</a> and <a href="//wikimediafoundation.org/wiki/Home" target="_blank">Wikimedia Foundation</a> with a focus on user experience design and social features. I grew from there into full-stack development and operated several Linux-based web servers hosting free online communities serving over 65,000 users.
 				</p>
 				<p>
 					As a hobby, I spent several years practicing photography, and operated a commercial photography business for 3 years, with most of my attention being towards photography in the automotive industry, for auto manufacturers, aftermarket companies, auto shops, and motorsports. Some of my portfolio is available on my <a href="//www.flickr.com/photos/georgebarnick">Flickr</a>.
