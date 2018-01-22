@@ -106,7 +106,7 @@
 				</div>
 				<div id="footerBlock">
 					<p style="margin: 0; text-align: center; font-size: 14px;">
-						Copyright © 2018, George Barnick. All Rights Reserved.
+						Copyright © <?php echo date("Y"); ?>, George Barnick. All Rights Reserved.
 					</p>
 				</div>
 			</footer>
