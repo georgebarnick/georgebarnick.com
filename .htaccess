@@ -42,3 +42,5 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
 Header always set X-FRAME-OPTIONS "DENY"
 Header always set X-XSS-Protection "1; mode=block"
 </IfModule>
+
+Options -Indexes
