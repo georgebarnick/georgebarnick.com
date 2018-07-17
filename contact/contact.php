@@ -2,7 +2,7 @@
 $field_name = $_POST['cf_name'];
 $field_email = $_POST['cf_email'];
 $field_message = $_POST['cf_message'];
-$mail_to = 'georgebarnick@gmail.com';
+$mail_to = 'contact@georgebarnick.com';
 $subject = 'Message from georgebarnick.com visitor ' . $field_name;
 $body_message = 'From: '.$field_name."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
