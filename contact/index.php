@@ -78,19 +78,21 @@
 		<div id="pageWrapper" class="hfeed" role="main">
 			<section id="page" data-content-field="main-content">
 				<?php
-					if ( $_GET['result'] == "success" ) { ?>
-						<p>Thank you for the message.</p><?php
-					} else if ( $_GET['result'] == "error" ) { ?>
-						<p>Message failed to send. Be sure to fill out each field and make sure your email is entered correctly.<br />If this error persists, please manually send an email to <a href="mailto:georgebarnick@gmail.com">georgebarnick@gmail.com</a>.</p>
-				<?php } ?>
+					if ( isset( $_GET['result'] ) ) {
+						if ( $_GET['result'] == "success" ) { ?>
+							<p>Thank you for the message.</p><?php
+						} else if ( $_GET['result'] == "error" ) { ?>
+							<p>Message failed to send. Be sure to fill out each field and make sure your email is entered correctly.<br />If this error persists, please manually send an email to <a href="mailto:georgebarnick@gmail.com">georgebarnick@gmail.com</a>.</p>
+						<?php }
+					} ?>
 				<p>
 					<form action="contact.php" method="post">
 						<div class="form-title">Name&nbsp;*</div>
-						<input type="text" name="cf_name"<?php if ( $_GET['name'] ) { echo ' value="' . $_GET['name'] . '"'; } ?>><br />
+						<input type="text" name="cf_name"<?php if ( isset( $_GET['name'] ) ) { echo ' value="' . $_GET['name'] . '"'; } ?>><br />
 						<div class="form-title">Email&nbsp;Address&nbsp;*</div>
-						<input type="text" name="cf_email"<?php if ( $_GET['email'] ) { echo ' value="' . $_GET['email'] . '"'; } ?>><br />
+						<input type="text" name="cf_email"<?php if ( isset( $_GET['email'] ) ) { echo ' value="' . $_GET['email'] . '"'; } ?>><br />
 						<div class="form-title">Message&nbsp;*</div>
-						<textarea name="cf_message"><?php if ( $_GET['message'] ) { echo $_GET['message']; } ?></textarea><br />
+						<textarea name="cf_message"><?php if ( isset( $_GET['message'] ) ) { echo $_GET['message']; } ?></textarea><br />
 						<input type="submit" value="Submit"><br clear="all" />
 					</form>
 				</p>
