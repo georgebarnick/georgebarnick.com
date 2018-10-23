@@ -19,16 +19,16 @@
 <meta property="og:title" content="About"/>
 <meta property="og:url" content="https://www.georgebarnick.com/"/>
 <meta property="og:type" content="website"/>
-<meta property="og:image" content="//www.georgebarnick.com/img/avatar.jpg"/>
+<meta property="og:image" content="//www.georgebarnick.com/img/avatar_20181020.jpg"/>
 <meta property="og:image:width" content="1000"/>
 <meta property="og:image:height" content="1000"/>
 <meta itemprop="name" content="About"/>
 <meta itemprop="url" content="https://www.georgebarnick.com/"/>
-<meta itemprop="thumbnailUrl" content="//www.georgebarnick.com/img/avatar.jpg"/>
-<link rel="image_src" href="//www.georgebarnick.com/img/avatar.jpg" />
-<meta itemprop="image" content="//www.georgebarnick.com/img/avatar.jpg"/>
+<meta itemprop="thumbnailUrl" content="//www.georgebarnick.com/img/avatar_20181020.jpg"/>
+<link rel="image_src" href="//www.georgebarnick.com/img/avatar_20181020.jpg" />
+<meta itemprop="image" content="//www.georgebarnick.com/img/avatar_20181020.jpg"/>
 <meta name="twitter:title" content="About"/>
-<meta name="twitter:image" content="//www.georgebarnick.com/img/avatar.jpg"/>
+<meta name="twitter:image" content="//www.georgebarnick.com/img/avatar_20181020.jpg"/>
 <meta name="twitter:url" content="https://www.georgebarnick.com/"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="description" content="I am the managing director at Rappahannock IT, a leading IT service provider in the Fredericksburg, Virginia region. I helped establish the company in 2017..." />
@@ -74,9 +74,9 @@
 		</div>
 		<div id="pageWrapper" class="hfeed" role="main">
 			<section id="page" data-content-field="main-content">
-				<img id="avatar" data-src="img/avatar.jpg" alt="George Barnick" />
+				<img id="avatar" data-src="img/avatar_20181020.jpg" alt="George Barnick" />
 				<noscript>
-					<img id="avatar" src="img/avatar.jpg" alt="George Barnick" />
+					<img id="avatar" src="img/avatar_20181020.jpg" alt="George Barnick" />
 				</noscript>
 				<p>
 					I am the managing director at <a href="//www.rappahannockit.com" target="_blank">Rappahannock IT</a>, a leading IT service provider in the Fredericksburg, Virginia region. I helped establish the company in 2017 as a joint venture with my friend and colleague Cody Harrell.
