@@ -39,6 +39,7 @@
 <link rel="stylesheet" type="text/css" href="../style.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <script defer src="/fontawesome/svg-with-js/js/fontawesome-all.js"></script>
+<script async defer src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -82,8 +83,10 @@
 						if ( $_GET['result'] == "success" ) { ?>
 							<p>Thank you for the message.</p><?php
 						} else if ( $_GET['result'] == "error" ) { ?>
-							<p>Message failed to send. Be sure to fill out each field and make sure your email is entered correctly.<br />If this error persists, please manually send an email to <a href="mailto:georgebarnick@gmail.com">georgebarnick@gmail.com</a>.</p>
-						<?php }
+							<p>Message failed to send. Be sure to fill out each field and make sure your email is entered correctly.<br />If this error persists, please manually send an email to <a href="mailto:contact@georgebarnick.com">contact@georgebarnick.com</a>.</p><?php
+						} else if ( $_GET['result'] == "verificationfail" ) { ?>
+							<p>Message failed to send. Failed to verify with reCAPTCHA. Your message has been preserved below to try resending.<br />If this error persists, please manually send an email to <a href="mailto:contact@georgebarnick.com">contact@georgebarnick.com</a>.</p><?php
+						}
 					} ?>
 				<p>
 					<form action="contact.php" method="post">
@@ -93,6 +96,7 @@
 						<input type="text" name="cf_email"<?php if ( isset( $_GET['email'] ) ) { echo ' value="' . $_GET['email'] . '"'; } ?>><br />
 						<div class="form-title">Message&nbsp;*</div>
 						<textarea name="cf_message"><?php if ( isset( $_GET['message'] ) ) { echo $_GET['message']; } ?></textarea><br />
+						<div class="g-recaptcha" data-sitekey="6LfTi3wUAAAAAO46kodXvVYHnMY_uY2GyktouZGq"></div>
 						<input type="submit" value="Submit"><br clear="all" />
 					</form>
 				</p>
