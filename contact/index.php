@@ -80,13 +80,18 @@
 			<section id="page" data-content-field="main-content">
 				<?php
 					if ( isset( $_GET['result'] ) ) {
-						if ( $_GET['result'] == "success" ) { ?>
-							<p>Thank you for the message.</p><?php
-						} else if ( $_GET['result'] == "error" ) { ?>
-							<p>Message failed to send. Be sure to fill out each field and make sure your email is entered correctly.<br />If this error persists, please manually send an email to <a href="mailto:contact@georgebarnick.com">contact@georgebarnick.com</a>.</p><?php
-						} else if ( $_GET['result'] == "verificationfail" ) { ?>
-							<p>Message failed to send. Failed to verify with reCAPTCHA. Your message has been preserved below to try resending.<br />If this error persists, please manually send an email to <a href="mailto:contact@georgebarnick.com">contact@georgebarnick.com</a>.</p><?php
-						}
+						?><p><?php
+						switch ( $_GET['result'] ) {
+							case "success":
+								echo "Thank you for the message.";
+								break;
+							case "error":
+								echo "Message failed to send. Be sure to fill out each field and make sure your email is entered correctly.<br />If this error persists, please manually send an email to <a href='mailto:contact@georgebarnick.com'>contact@georgebarnick.com</a>.";
+								break;
+							case "verificationfail":
+								echo "Message failed to send. Failed to verify with reCAPTCHA. Your message has been preserved below to try resending.<br />If this error persists, please manually send an email to <a href='mailto:contact@georgebarnick.com'>contact@georgebarnick.com</a>.";
+								break;
+						}?></p><?php
 					} ?>
 				<p>
 					<form action="contact.php" method="post">
