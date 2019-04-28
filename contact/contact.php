@@ -9,7 +9,7 @@ $body_message .= 'E-mail: ' . $field_email . "\n";
 $body_message .= 'Message: ' . $field_message;
 $headers = "From: " . $field_email . "\r\n";
 $headers .= "Reply-To: " . $field_email . "\r\n";
-if ( isset( $_POST['g-recaptcha-response'] ) && !empty( $_POST['g-recaptcha-response'] ) ) {
+if ( isset( $_POST['g-recaptcha-response'] ) && !empty( $_POST['g-recaptcha-response'] ) && empty( $_POST['cf_website'] ) ) {
 	if ( $field_email != null && $field_message != null ) {
 		$mail_status = mail( $mail_to, $subject, $body_message, $headers );
 	}
