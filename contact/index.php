@@ -38,7 +38,7 @@
 &lt;meta property=&quot;og:description&quot; content=&quot;Contact me...&quot; /&gt;" />
 <link rel="stylesheet" type="text/css" href="../style.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<script defer src="/fontawesome/svg-with-js/js/fontawesome-all.js"></script>
+<script defer src="/fontawesome/js/all.js"></script>
 <script async defer src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
