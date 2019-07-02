@@ -35,7 +35,7 @@
 <meta property="og:description" content="I am the managing director at Rappahannock IT, a leading IT service provider in the Fredericksburg, Virginia region. I helped establish the company in 2017..." />
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<script defer src="/fontawesome/svg-with-js/js/fontawesome-all.js"></script>
+<script defer src="/fontawesome/js/all.js"></script>
 </head>
 
 <body>

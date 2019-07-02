@@ -38,7 +38,7 @@
 &lt;meta property=&quot;og:description&quot; content=&quot;Contact me...&quot; /&gt;" />
 <link rel="stylesheet" type="text/css" href="../style.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<script defer src="/fontawesome/svg-with-js/js/fontawesome-all.js"></script>
+<script defer src="/fontawesome/js/all.js"></script>
 <script async defer src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
@@ -89,7 +89,7 @@
 								echo "Message failed to send. Be sure to fill out each field and make sure your email is entered correctly.<br />If this error persists, please manually send an email to <a href='mailto:contact@georgebarnick.com'>contact@georgebarnick.com</a>.";
 								break;
 							case "verificationfail":
-								echo "Message failed to send. Failed to verify with reCAPTCHA. Your message has been preserved below to try resending.<br />If this error persists, please manually send an email to <a href='mailto:contact@georgebarnick.com'>contact@georgebarnick.com</a>.";
+								echo "Message failed to send. Failed to pass at least one anti-spam measure. Your message has been preserved below to try resending.<br />If this error persists, please manually send an email to <a href='mailto:contact@georgebarnick.com'>contact@georgebarnick.com</a>.";
 								break;
 						}?></p><?php
 					} ?>
@@ -101,6 +101,10 @@
 						<input type="text" name="cf_email"<?php if ( isset( $_GET['email'] ) ) { echo ' value="' . $_GET['email'] . '"'; } ?>><br />
 						<div class="form-title">Message&nbsp;*</div>
 						<textarea name="cf_message"><?php if ( isset( $_GET['message'] ) ) { echo $_GET['message']; } ?></textarea><br />
+						<span style="display:none;visibility:hidden;">
+						<div class="form-title">Don't&nbsp;complete&nbsp;this&nbsp;field&nbsp;*</div>
+						<input type="text" name="cf_website" value="" size="40" tabindex="-1" autocomplete="off">
+						</span>
 						<div class="g-recaptcha" data-sitekey="6LfTi3wUAAAAAO46kodXvVYHnMY_uY2GyktouZGq"></div>
 						<input type="submit" value="Submit"><br clear="all" />
 					</form>
