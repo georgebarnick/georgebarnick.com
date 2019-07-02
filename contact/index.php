@@ -20,17 +20,17 @@
 <meta property="og:url" content="https://www.georgebarnick.com/contact/"/>
 <meta property="og:type" content="website"/>
 <meta property="og:description" content="&lt;meta property=&quot;og:title&quot; content=&quot;George Barnick - Contact&quot; /&gt; &lt;meta property=&quot;og:description&quot; content=&quot;Contact me...&quot; /&gt;"/>
-<meta property="og:image" content="//www.georgebarnick.com/img/avatar_20181020.jpg"/>
+<meta property="og:image" content="//www.georgebarnick.com/img/avatar_20190702.jpg"/>
 <meta property="og:image:width" content="1000"/>
 <meta property="og:image:height" content="1000"/>
 <meta itemprop="name" content="Contact"/>
 <meta itemprop="url" content="https://www.georgebarnick.com/contact/"/>
 <meta itemprop="description" content="&lt;meta property=&quot;og:title&quot; content=&quot;George Barnick - Contact&quot; /&gt; &lt;meta property=&quot;og:description&quot; content=&quot;Contact me...&quot; /&gt;"/>
-<meta itemprop="thumbnailUrl" content="//www.georgebarnick.com/img/avatar_20181020.jpg"/>
-<link rel="image_src" href="//www.georgebarnick.com/img/avatar_20181020.jpg" />
-<meta itemprop="image" content="//www.georgebarnick.com/img/avatar_20181020.jpg"/>
+<meta itemprop="thumbnailUrl" content="//www.georgebarnick.com/img/avatar_20190702.jpg"/>
+<link rel="image_src" href="//www.georgebarnick.com/img/avatar_20190702.jpg" />
+<meta itemprop="image" content="//www.georgebarnick.com/img/avatar_20190702.jpg"/>
 <meta name="twitter:title" content="Contact"/>
-<meta name="twitter:image" content="//www.georgebarnick.com/img/avatar_20181020.jpg"/>
+<meta name="twitter:image" content="//www.georgebarnick.com/img/avatar_20190702.jpg"/>
 <meta name="twitter:url" content="https://www.georgebarnick.com/contact/"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:description" content="&lt;meta property=&quot;og:title&quot; content=&quot;George Barnick - Contact&quot; /&gt; &lt;meta property=&quot;og:description&quot; content=&quot;Contact me...&quot; /&gt;"/>
