@@ -93,7 +93,10 @@
 					?>+ years of experience in tech fields, ranging from full-stack web development, software engineering, IT consulting, and security. I began my career as a web designer, contributing to open-source projects such as <a href="//www.mediawiki.org/wiki/MediaWiki" target="_blank">MediaWiki</a> and <a href="//wikimediafoundation.org/wiki/Home" target="_blank">Wikimedia Foundation</a> with a focus on user experience design and social features. I grew from there into full-stack development and operated several Linux-based web servers hosting free online communities serving over 65,000 users.
 				</p>
 				<p>
-					As a hobby, I spent several years practicing photography, and operated a commercial photography business for 3 years, with most of my attention being towards photography in the automotive industry, for auto manufacturers, aftermarket companies, auto shops, and motorsports. Some of my portfolio is available on my <a href="//www.flickr.com/photos/georgebarnick">Flickr</a>.
+					I am a member of the Rappahannock-Fredericksburg Rotary Club and active community service participant in the Fredericksburg area. I serve as a board member for the <a href="https://fredspca.org" target="_blank">SPCA of Fredericksburg</a> and have adopted two dogs there myself, as well as being involved in various other community organizations and non-profits.
+				</p>
+				<p>
+					As a hobby, I spent several years practicing photography, and operated a commercial photography business for 3 years, with most of my attention being towards photography in the automotive industry, for auto manufacturers, aftermarket companies, auto shops, and motorsports. Some of my portfolio is available on my <a href="//www.flickr.com/photos/georgebarnick" target="_blank">Flickr</a>.
 				</p>
 			</section>
 		</div>
