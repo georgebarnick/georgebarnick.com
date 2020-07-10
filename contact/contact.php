@@ -7,7 +7,7 @@ $subject = 'Message from georgebarnick.com visitor ' . $field_name;
 $body_message = 'From: ' . $field_name . "\n";
 $body_message .= 'E-mail: ' . $field_email . "\n";
 $body_message .= 'Message: ' . $field_message;
-$headers = "From: " . $field_email . "\r\n";
+$headers = "From: contact@georgebarnick.com\r\n";
 $headers .= "Reply-To: " . $field_email . "\r\n";
 if ( isset( $_POST['g-recaptcha-response'] ) && !empty( $_POST['g-recaptcha-response'] ) && empty( $_POST['cf_website'] ) ) {
 	if ( $field_email != null && $field_message != null ) {
