@@ -74,9 +74,11 @@
 		</div>
 		<div id="pageWrapper" class="hfeed" role="main">
 			<section id="page" data-content-field="main-content">
-				<img id="avatar" data-src="img/avatar_20190702.jpg" alt="George Barnick" />
+				<img id="avatar" 
+data-src="img/web_avatar.jpg" alt="George Barnick" />
 				<noscript>
-					<img id="avatar" src="img/avatar_20190702.jpg" alt="George Barnick" />
+					<img id="avatar" 
+src="img/web_avatar.jpg" alt="George Barnick" />
 				</noscript>
 				<p>
 					I am the managing director at <a href="//www.rappahannockit.com" target="_blank">Rappahannock IT</a>, a leading IT service provider in the Fredericksburg, Virginia region. I helped establish the company in 2017 as a joint venture with my friend and colleague Cody Harrell.
