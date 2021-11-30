@@ -31,8 +31,8 @@
 <meta name="twitter:image" content="//www.georgebarnick.com/img/avatar_20190702.jpg"/>
 <meta name="twitter:url" content="https://www.georgebarnick.com/"/>
 <meta name="twitter:card" content="summary"/>
-<meta name="description" content="I am the managing director at Rappahannock IT, a leading IT service provider in the Fredericksburg, Virginia region. I helped establish the company in 2017..." />
-<meta property="og:description" content="I am the managing director at Rappahannock IT, a leading IT service provider in the Fredericksburg, Virginia region. I helped establish the company in 2017..." />
+<meta name="description" content="George Barnick - Fredericksburg, Virginia" />
+<meta property="og:description" content="George Barnick - Fredericksburg, Virginia" />
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <script defer src="/fontawesome/js/all.js"></script>
@@ -74,15 +74,10 @@
 		</div>
 		<div id="pageWrapper" class="hfeed" role="main">
 			<section id="page" data-content-field="main-content">
-				<img id="avatar" 
-data-src="img/web_avatar.jpg" alt="George Barnick" />
+				<img id="avatar" data-src="img/web_avatar.jpg" alt="George Barnick" />
 				<noscript>
-					<img id="avatar" 
-src="img/web_avatar.jpg" alt="George Barnick" />
+					<img id="avatar" src="img/web_avatar.jpg" alt="George Barnick" />
 				</noscript>
-				<p>
-					I am the managing director at <a href="//www.rappahannockit.com" target="_blank">Rappahannock IT</a>, a leading IT service provider in the Fredericksburg, Virginia region. I helped establish the company in 2017 as a joint venture with my friend and colleague Cody Harrell.
-				</p>
 				<p>
 					I have <?php
 						function dateDifference( $date_1, $date_2, $differenceFormat = '%y' ) {
