@@ -79,7 +79,7 @@
 					<img id="avatar" src="img/web_avatar.jpg" alt="George Barnick" />
 				</noscript>
 				<p>
-					I have <?php
+					I am the president and founder of <a href="https://fxbgtech.com" target="_blank">Fredericksburg Technology</a>, a leading IT service provider in the Fredericksburg region. I have <?php
 						function dateDifference( $date_1, $date_2, $differenceFormat = '%y' ) {
 						        $datetime1 = date_create( $date_1 );
 						        $datetime2 = date_create( $date_2 );
