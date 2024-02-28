@@ -116,7 +116,7 @@
 				<div id="social" class="social-links">
 					<a class="social-icon" href="//www.facebook.com/GeorgeBarnick" target="_blank"><i class="fab fa-facebook"></i></a>
 					<a class="social-icon" href="//www.linkedin.com/in/georgebarnick/" target="_blank"><i class="fab fa-linkedin"></i></a>
-					<a class="social-icon" href="//www.twitter.com/georgebarnick" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a class="social-icon" href="//www.twitter.com/georgebarnick" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
 					<a class="social-icon" href="//www.instagram.com/georgebarnick" target="_blank"><i class="fab fa-instagram"></i></a>
 					<a class="social-icon" href="//www.github.com/georgebarnick" target="_blank"><i class="fab fa-github"></i></a>
 					<a class="social-icon" href="//www.flickr.com/photos/georgebarnick" target="_blank"><i class="fab fa-flickr"></i></a>
