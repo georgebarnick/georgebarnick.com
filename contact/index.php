@@ -78,6 +78,7 @@
 		</div>
 		<div id="pageWrapper" class="hfeed" role="main">
 			<section id="page" data-content-field="main-content">
+				<p>Schedule a meeting <a href="//fxbg.tech/george30min" target="_blank">here</a>, or contact me below.</p>
 				<?php
 					if ( isset( $_GET['result'] ) ) {
 						?><p><?php
